@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+    font-family: arial;
+}
+
+.header-title {
+    background: darkred;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.header-title>h3 {
+    text-align: center;
+}
+
+.banner {
+    padding: 100px;
+    text-align: center;
+    background-color: rgb(92, 107, 92);
+}
+
+.navbar {
+    display: flex;
+    background-color: blueviolet;
+    padding: 10px;
+    justify-content: space-between;
+}
+.navbar > li{
+    list-style: none;
+
+}
+
+.navbar li:hover{
+    background-color: red;
+    color: black;
+
+}
